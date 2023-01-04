@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*Card notícia ***************************/
+.card {
+    background-color: rgb(236, 194, 8);
+    width: 400px;
+
+
+    margin: 0 auto;
+    padding: 15px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-bottom: 50px;
+}
+
+    .fixado {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        font-style: italic;
+
+        text-align: right;
+
+    }
+        .fixado img {
+            width: 25px;
+
+        }
+    
+    .titulo {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 26px;
+        margin-top: 20px;
+    }
+
+    .subtitulo {
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:16px;
+        margin-top: 20px;
+    }
+
+    .foto {
+        width: 100%;
+        margin-top: 20px;
+
+    }
+
+    .corpo {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:14px;
+        margin-top: 20px;
+    }
+
+    .btnoticia {
+        background-color: green;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+
+        display: block;
+        width: 200px;
+        border-radius: 20px;
+        padding: 10px;
+        margin-top: 15px;
+    }
+
+    .btnoticia:hover {
+        background-color: rgb(10, 189, 10);
+        color: rgb(8, 8, 41);
+    }
+
+    .data {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        font-style: italic;
+
+        padding-top: 5px;
+        margin-top: 20px;
+        border-top: solid 1px black;
+    }
+
+/*Fim card notícia ***********************/
